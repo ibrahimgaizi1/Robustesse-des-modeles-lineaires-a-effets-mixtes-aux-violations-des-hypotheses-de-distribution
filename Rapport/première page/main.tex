@@ -1,0 +1,160 @@
+\documentclass[french,12pt]{report}
+%Some packages I commonly use.
+%\usepackage[english]{babel}
+\usepackage[french]{babel}
+\usepackage{graphicx}
+\usepackage{framed}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{enumerate}
+\usepackage{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage[top=1 in,bottom=1in, left=1 in, right=1 in]{geometry}
+\usepackage{systeme}
+\usepackage{hyperref} 
+\usepackage{dsfont}
+\usepackage[
+backend=biber,
+style=alphabetic,
+sorting=ynt
+]{biblatex}
+ 
+%A bunch of definitions that make my life easier
+\newcommand{\matlab}{{\sc Matlab} }
+\newcommand{\cvec}[1]{{\mathbf #1}}
+\newcommand{\rvec}[1]{\vec{\mathbf #1}}
+\newcommand{\ihat}{\hat{\textbf{\i}}}
+\newcommand{\jhat}{\hat{\textbf{\j}}}
+\newcommand{\khat}{\hat{\textbf{k}}}
+\newcommand{\minor}{{\rm minor}}
+\newcommand{\trace}{{\rm trace}}
+\newcommand{\spn}{{\rm Span}}
+\newcommand{\rem}{{\rm rem}}
+\newcommand{\ran}{{\rm range}}
+\newcommand{\range}{{\rm range}}
+\newcommand{\mdiv}{{\rm div}}
+\newcommand{\proj}{{\rm proj}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\<}{\langle}
+\renewcommand{\>}{\rangle}
+\renewcommand{\emptyset}{\varnothing}
+\newcommand{\attn}[1]{\textbf{#1}}
+\theoremstyle{definition}
+\newtheorem*{remark}{Remarque}
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}
+\newtheorem*{definition}{Definition}
+\newtheorem*{example}{Example}
+\newtheorem*{note}{Note}
+\newtheorem{exercise}{Exercise}
+\newcommand{\bproof}{\bigskip {\bf Proof. }}
+\newcommand{\eproof}{\hfill\qedsymbol}
+\newcommand{\Disp}{\displaystyle}
+
+\setlength{\columnseprule}{1 pt}
+\frenchsetup{StandardLists=true}
+
+\addbibresource{biblio.bib}
+
+
+
+\begin{document}
+
+\begin{titlepage}
+
+\begin{figure}
+     \begin{minipage}{0.4\textwidth}
+         \begin{flushleft}
+             \includegraphics[scale=0.7]{univ.png}
+             
+         \end{flushleft}
+     \end{minipage}
+     \hfill
+     \begin{minipage}{0.4\textwidth}
+         \begin{flushright}
+             \includegraphics[scale=0.3]{IAE.png}
+          
+         \end{flushright}
+     \end{minipage}
+\end{figure}
+
+
+\vspace{4cm}
+
+\center
+\textsc{\LARGE Master 2 MIND/SIAD}\\
+\vspace{1cm}
+\textrm{\textbf{Modèle linéaire avancée}}
+
+\rule{\linewidth}{1pt}\\[0.4cm]
+
+\huge { Robustesse des modèles linéaires à effets mixtes face aux violations des hypothèses de distribution }
+\rule{\linewidth}{1pt}\\[0.5cm]
+
+ 
+ 
+
+
+
+
+\vspace{1cm}
+
+\Large Proposé par : \\[0.5cm]
+
+\LARGE \textbf{Mr Joseph Salmon}\\
+
+
+
+
+
+
+     
+
+
+
+
+ 
+\vspace{2cm}
+
+\Large Fait par : \\[0.9cm]
+
+
+
+\LARGE \textbf{Ibrahim} \textsc{ \textbf{Gaizi}}\\
+
+
+\vspace{1cm}
+     
+
+\centering
+
+
+
+
+     
+
+
+
+
+\end{titlepage}
+
+
+
+
+
+
+
+
+
+
+\end{document}
+
+
+
+

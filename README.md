@@ -1,0 +1,1 @@
+L'objectif de ce projet est d'étudier l'article suivant : https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/2041-210X.13434    qui traite : La robustesse des modèles linéaires à effets mixtes face aux violations des hypothèses de distribution
